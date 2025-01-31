@@ -35,7 +35,7 @@
 
 
 ## 4: Instalación de librerías
-* En el [Respositorio oficial de Python](https://pypi.org/) se encuentran los paquetes y librerias.
+* En el [Respositorio oficial de Python](https://pypi.org/) se encuentran los paquetes y librerías.
     * Principales librerías:
         * NumPy: Cálculo y funciones numéricas.
         * Pandas: Análisis, manipulación y limpieza de datos.
