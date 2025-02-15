@@ -3,20 +3,21 @@
 ## 1: Descarga
 * Desde la **[Web oficial de Python](https://www.python.org/)** en la sección **Descargas >> Windows** identificar la version y dercargar el instalador.
 
-    **Nota:** Recomendable instalar una versión estable. Reviar el estado de [Versiones de Python](https://devguide.python.org/versions/).
+> [!NOTE]
+> Recomendable instalar una versión estable. Reviar el estado de [Versiones de Python](https://devguide.python.org/versions/).
 
 ![](./IMG/IMG_01.png)
 
 
 ## 2: Instalación
 * Ejecutar el instalador y marcar las dos opciones:
-    * *Use admin privileges when installing py.exe*
-    * *Add python.exe al PATH*
+    - [x] Use admin privileges when installing py.exe
+    - [x] Add python.exe al PATH
 
 ![](./IMG/IMG_02.png)
 
 * Comprobar instalación de Python y PIP (gestor de paquetes para Python):
-    * Abrir el Símbolo del sistema: *Windows+R* o buscar CMD y ejecutar.
+    * Abrir el Símbolo del sistema: *Windows+R* buscar CMD y ejecutar.
         ```python
         python --version
         ```
@@ -27,6 +28,8 @@
 
 
 ## 3: Configuración del PATH
+> [!NOTE]
+> En caso de que el sistema no reconozca Python.
 
 * En el explorador de window buscar **varibales de entorno del sistema**.
     * Verificar que dentro de **path** exista la ruta ```C:\Users\...\AppData\Local\Programs\Python\Python311\Scripts\```.
@@ -43,7 +46,7 @@
         * Seaborn: Visualización de datos estilizada.
         * Plotly: Visualizaciones de datos interactivas.
 
-* Para instalar usar el gestor de paquetes PIP y ejecutar en CMD.
+* Para instalar usar el gestor de paquetes ```pip``` y ejecutar en CMD.
     ```python
     pip install numpy
     pip install pandas
